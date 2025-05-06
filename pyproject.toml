@@ -1,0 +1,14 @@
+[tool.poerty]
+name = "with_github"
+version = "0.1.0"
+description = ""
+autors = ["Merlelishvili Nika <megrelynika@gmail.com>"]
+readme = "README.md"
+
+[tool.poerty.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poerty-core"]
+build-backend = "poetry.core.masonry.api"
